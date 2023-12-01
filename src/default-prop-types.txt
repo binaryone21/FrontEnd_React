@@ -2,13 +2,13 @@ import React from 'react';
 
 import PropTypes from 'prop-types';
 
-const fileName = () => {
+const fileName = React.memo(() => {
     return (
         <div>
-
+            ...
         </div>
     );
-};
+});
 
 fileName.propTypes = {
 

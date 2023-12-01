@@ -1,5 +1,5 @@
 {
-  "name": "01-hello-react",
+  "name": "FrontEnd_React",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,8 +16,7 @@
     "sass": "^1.69.5",
     "styled-components": "^6.1.1",
     "styled-components-breakpoints": "^1.1.1",
-    "styled-reset": "^4.5.1",
-    "web-vitals": "^2.1.0"
+    "styled-reset": "^4.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -42,5 +41,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "packageManager": "yarn@4.0.2"
 }

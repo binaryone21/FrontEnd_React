@@ -1,0 +1,21 @@
+import React from 'react';
+
+import PropTypes from 'prop-types';
+
+const fileName = () => {
+    return (
+        <div>
+
+        </div>
+    );
+};
+
+fileName.propTypes = {
+
+};
+
+fileName.defaultProps = {
+
+};
+
+export default fileName;

@@ -13,6 +13,7 @@ import ReactDOM from 'react-dom/client';
 // 이 소스파일(index.js)과 동일한 위치의 App.js("./App") 를 App 이라는 이름으로 가져온다.
 import App from "./App";
 import BasicIndex from "./basic";
+import ReactForTheFirstTime from "./_처음_만난_리액트";
 
 /** 컴포넌트를 페이지에 렌더링한다. */
 // App.js 에서 정의한 'App' 이라는 이름의 컴포넌트를 HTML 태그처럼 사용한다.
@@ -25,6 +26,7 @@ root.render(
         <Routes>
             <Route path="/*" element={<App />} />
             <Route path="/basic/*" element={<BasicIndex />}/>
+            <Route path="/_처음_만난_리액트/*" element={<ReactForTheFirstTime />}/>
         </Routes>
     </BrowserRouter>
 )

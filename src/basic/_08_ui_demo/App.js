@@ -20,7 +20,7 @@ const App = () => {
 				<MenuLink to='tab_ex'>TabEx</MenuLink>
 				<MenuLink to='submenu_ex'>SubmenuEx</MenuLink>
 				<MenuLink to='collapse_ex'>CollapseEx</MenuLink>
-				<MenuLink to='crate_element_ex'>CreateElementEx</MenuLink>
+				<MenuLink to='create_element_ex'>CreateElementEx</MenuLink>
 			</nav>
 
 			<hr/>

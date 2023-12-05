@@ -7,10 +7,14 @@
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "aos": "^2.3.4",
+    "chart.js": "^4.4.1",
     "classnames": "^2.3.2",
     "dayjs": "^1.11.10",
     "fslightbox-react": "^1.7.6",
+    "lodash": "^4.17.21",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
     "react-helmet-async": "^2.0.1",
     "react-router-dom": "^6.19.0",
@@ -19,7 +23,9 @@
     "sass": "^1.69.5",
     "styled-components": "^6.1.1",
     "styled-components-breakpoints": "^1.1.1",
-    "styled-reset": "^4.5.1"
+    "styled-reset": "^4.5.1",
+    "sweetalert2": "^11.10.1",
+    "sweetalert2-react-content": "^5.0.7"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -45,5 +51,8 @@
       "last 1 safari version"
     ]
   },
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.0.2",
+  "devDependencies": {
+    "eslint-config-react-app": "^7.0.1"
+  }
 }

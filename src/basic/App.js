@@ -12,7 +12,7 @@ const App = React.memo(() => {
 			<div><button onClick={() => window.location.href = "_07_hook_event"}>07-Hook-Event</button></div>
 			<div><button onClick={() => window.location.href = "_08_ui_demo"}>08-UI-Demo</button></div>
 			<div><button onClick={() => window.location.href = "_09_ui_library"}>09-UI-Library</button></div>
-			<div><button onClick={() => window.location.href = ""}>...</button></div>
+			<div><button onClick={() => window.location.href = "_10_food_log_demo"}>10-Food-Log-Demo</button></div>
 			<div><button onClick={() => window.location.href = ""}>...</button></div>
 			<div><button onClick={() => window.location.href = ""}>...</button></div>
 			<div><button onClick={() => window.location.href = ""}>...</button></div>

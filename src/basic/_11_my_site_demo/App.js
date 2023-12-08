@@ -4,7 +4,11 @@
 
 /** 패키지 참조 */
 import React from 'react';
-import GlobalStyles from "./GlobalStyles";
+
+// 전역 스타일 정의
+import GlobalStyles from "./styles/GlobalStyles";
+
+// <head> 태그 내의 <meta> 태그 정의 파일
 import Meta from "./Meta";
 
 // 라우팅 처리

@@ -12,13 +12,13 @@ import mq from './MediaQuery';
 
 /** 전역 스타일 시트를 정의한 객체 */
 const GlobalStyles = createGlobalStyle`
+  * {
+	font-family: 'Noto Sans KR';
+	box-sizing: border-box;
+	font-size: 16px;
+  }
+  
 	${ reset }
-	
-	* {
-	  font-family: 'Noto Sans KR';
-	  box-sizing: border-box;
-	  font-size: 16px;
-	}
 	
 	body {
 	  margin: 0;

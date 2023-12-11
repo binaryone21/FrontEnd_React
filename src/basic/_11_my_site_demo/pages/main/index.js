@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Introduce from "./introduce";
-import Profile from "./Profile";
+import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 
 /** 이 컴포넌트에 대한 스타일 정의 */
@@ -16,7 +16,7 @@ const Index = React.memo(() => {
 	return (
 		<IndexContainer>
 			<Introduce />
-			<Profile />
+			<Portfolio />
 			<Contact />
 		</IndexContainer>
 	);

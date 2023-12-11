@@ -32,7 +32,7 @@ const AppContainer = styled.div`
 /** 컴포넌트 구현부 */
 const App = React.memo(() => {
 	return (
-		<span>
+		<>
 			<GlobalStyles />
 			<Meta />
 			<AppContainer>
@@ -42,7 +42,7 @@ const App = React.memo(() => {
 				</Routes>
 				<Footer />
 			</AppContainer>
-		</span>
+		</>
 	);
 });
 

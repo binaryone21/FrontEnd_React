@@ -11,7 +11,7 @@ const App = React.memo(() => {
 			<h1>10-Simple-Ajax</h1>
 			<nav>
 				<MenuLink to="news">뉴스목록</MenuLink>
-				<MenuLink to="deaprtment">학과관리</MenuLink>
+				<MenuLink to="department">학과관리</MenuLink>
 			</nav>
 
 			<hr/>

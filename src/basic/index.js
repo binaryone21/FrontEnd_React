@@ -15,6 +15,7 @@ import App10 from "./_10_food_log_demo/App";
 import App11 from "./_11_my_site_demo/App";
 import App12 from "./_12_simple_ajax/App";
 import Index13 from "./_13_axios_hooks";
+import Index14 from "./_14_axios_hooks_crud";
 
 const BasicIndex = React.memo(() => {
 	return (
@@ -34,7 +35,7 @@ const BasicIndex = React.memo(() => {
 				<Route path="/_11_my_site_demo/*" element={<App11 />}/>
 				<Route path="/_12_simple_ajax/*" element={<App12 />}/>
 				<Route path="/_13_axios_hooks/*" element={<Index13 />}/>
-				<Route path="/" element={<App />}/>
+				<Route path="/_14_axios_hooks_crud/*" element={<Index14 />}/>
 				<Route path="/" element={<App />}/>
 			</Routes>
 		</div>

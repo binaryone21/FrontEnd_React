@@ -12966,6 +12966,26 @@
       "eng": 50,
       "math": 64,
       "sin": 75
+    },
+    {
+      "name": "추가",
+      "level": 2,
+      "sex": "남자",
+      "kor": 12,
+      "eng": 34,
+      "math": 56,
+      "sin": 78,
+      "id": 6
+    },
+    {
+      "name": "추가2",
+      "level": 2,
+      "sex": "남자",
+      "kor": 23,
+      "eng": 45,
+      "math": 67,
+      "sin": 89,
+      "id": 7
     }
   ],
   "traffic_acc": [

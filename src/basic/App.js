@@ -21,6 +21,7 @@ const App = React.memo(() => {
 			<div><button onClick={() => navigate('_13_axios_hooks')}>13-Axios-Hooks</button></div>
 			<div><button onClick={() => navigate('_14_axios_hooks_crud')}>14-Axios-Hooks-CRUD</button></div>
 			<div><button onClick={() => navigate('_15_redux')}>15-Redux</button></div>
+			<div><button onClick={() => navigate('_16_redux_crud')}>16-Redux-CRUD</button></div>
 			<div><button onClick={() => navigate('')}>...</button></div>
 		</div>
 	)

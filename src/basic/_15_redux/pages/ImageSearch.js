@@ -96,10 +96,8 @@ const ImageSearch = React.memo(() => {
 							// 검색어와 Ajax 처리결과가 존재할 경우에만 처리함
 							data.documents.map((v, i) => {
 								return (
-									<li className="list-item" key={i}
-										// Ajax 가 로딩중이 아니고 출력할 데이터 중에서 맨 마지막 원소라면?
-										{...(!data?.meta.isEnd && !loading && data.document.length-1 === i) ? { ref : isEnd } : {}}
-										>
+									// Ajax 가 로딩중이 아니고 출력할 데이터 중에서 맨 마지막 원소라면?
+									<li className="list-item" key={i} { ...(!data.meta?.isEnd && !loading && data?.document?.length-1 === i) ? { ref : isEnd } : {}}>
 										<a className="list-item-link" href={v.doc_url} target="_blank" rel="noreferrer">
 											<div className="thumbnail">
 												<ImageView src={v.thumbnail_url} alt={v.display_sitename} />

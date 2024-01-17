@@ -14,8 +14,8 @@ const App = React.memo(() => {
 			<Routes>
 				<Route path="/" element={<DepartmentList />} />
 				<Route path="/department_add" element={<DepartmentAdd />} />
-				<Route path="/department_view/:id" element={<DepartmentEdit />} />
-				<Route path="/department_edit/:id" element={<DepartmentView />} />
+				<Route path="/department_view/:id" element={<DepartmentView />} />
+				<Route path="/department_edit/:id" element={<DepartmentEdit />} />
 			</Routes>
 		</div>
 	);

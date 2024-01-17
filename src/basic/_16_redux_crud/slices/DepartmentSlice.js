@@ -3,6 +3,8 @@ import axios from 'axios';
 import { pending, fullfilled, rejected } from "../helper/ReduxHelper";
 import { cloneDeep } from 'lodash';
 
+const API_URL = '/department';
+
 /** 다중행 데이터 조회를 위한 비동기 함수 */
 export const getList = createAsyncThunk("DepartmentSlice/getList", async (payload, { rejectWithValue }) => {
 	let result = null;
@@ -50,7 +52,7 @@ export const getItem = createAsyncThunk("DepartmentSlice/getItem", async (payloa
 /** 데이터 저장를 위한 비동기 함수 */
 export const postItem = createAsyncThunk("DepartmentSlice/postItem", async (payload, { rejectWithValue }) => {
 	let result = null;
-	const URL = process.env.REACT_APP_API_DEPARTMENT_LIS;
+	const URL = process.env.REACT_APP_API_DEPARTMENT_LIST;
 
 	try {
 		const response = await axios.post(URL, {
@@ -145,7 +147,26 @@ const DepartmentSlice = createSlice({
 
 		/** 데이터 삭제를 위한 액션 함수 */
 		builder.addCase(deleteItem.pending, pending);
-		builder.addCase(deleteItem.fulfilled, fullfilled);
+		builder.addCase(deleteItem.fulfilled, (state, { meta, payload}) => {
+			let data =null;
+			if(Array.isArray(state.data)) {
+				// 기존의 상태값을 복사한다.
+				data = [...state.data];
+
+				// id 값이 일치하는 항목의배열 인덱스를 찾는다. (v.id 는 백엔드가 주는 변수 이름)
+				const targetId = data.findIndex((v, i) => v.id === meta.arg.id);
+
+				// 복사한 데이터에서 해당 인덱스 위치를 삭제한다.
+				data.splice(targetId, 1);
+			} else {
+				data = payload;
+			}
+			return {
+				data : data,
+				loading: false,
+				error: null
+			}
+		});
 		builder.addCase(deleteItem.rejected, rejected);
 	},
 });

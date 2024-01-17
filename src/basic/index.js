@@ -18,6 +18,7 @@ import Index13 from "./_13_axios_hooks";
 import Index14 from "./_14_axios_hooks_crud";
 import Index15 from "./_15_redux";
 import Index16 from "./_16_redux_crud";
+import Index17 from "./_17_covid";
 
 const BasicIndex = React.memo(() => {
 	return (
@@ -40,6 +41,7 @@ const BasicIndex = React.memo(() => {
 				<Route path="/_14_axios_hooks_crud/*" element={<Index14 />}/>
 				<Route path="/_15_redux/*" element={<Index15 />}/>
 				<Route path="/_16_redux_crud/*" element={<Index16 />}/>
+				<Route path="/_17_covid/*" element={<Index17 />}/>
 			</Routes>
 		</div>
 	);

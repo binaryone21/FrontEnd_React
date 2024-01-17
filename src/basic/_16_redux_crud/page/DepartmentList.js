@@ -106,7 +106,7 @@ const DepartmentList = React.memo(() => {
 											<tr key={v.id}>
 												<td>{v.id}</td>
 												<td>
-													<NavLink to={`/department_view/${v.id}`}>{v.dname}</NavLink>
+													<NavLink to={`${window.location.href}/department_view/${v.id}`}>{v.dname}</NavLink>
 												</td>
 												<td>{v.loc}</td>
 												<td><button type="button">수정하기</button></td>

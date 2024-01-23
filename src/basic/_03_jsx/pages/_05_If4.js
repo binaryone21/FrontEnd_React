@@ -7,7 +7,7 @@ import React from 'react';
  * ex) { point === 80 ? (...) : (null) }
  */
 
-const If4 = () => {
+const _05_If4 = () => {
     const isLogin = true;
 
     return (
@@ -23,4 +23,4 @@ const If4 = () => {
     );
 };
 
-export default If4;
+export default _05_If4;

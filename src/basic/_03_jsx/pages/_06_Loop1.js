@@ -3,7 +3,7 @@ import React from 'react';
 /**
  * jsx 반복 처리 (1) - 함수를 통한 반복문 활용
  */
-const Loop1 = () => {
+const _06_Loop1 = () => {
     /** 목록정의 태그를 구성하기 위한 사용자 정의 함수 */
     const createListItems = (count) => {
         // <li>...</li> 단위를 지정할 배열
@@ -26,4 +26,4 @@ const Loop1 = () => {
     );
 };
 
-export default Loop1;
+export default _06_Loop1;

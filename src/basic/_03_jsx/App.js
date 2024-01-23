@@ -3,10 +3,10 @@ import React from 'react';
 import { Link, Routes, Route } from 'react-router-dom';
 
 /** 각 예제별 컴포넌트 import */
-import Expr from './pages/Expr';
-import If1 from './pages/If1';
-import If2 from './pages/If2';
-import If3 from './pages/If3';
+import _01_Expr from './pages/_01_Expr';
+import _02_If1 from './pages/_02_If1';
+import _03_If2 from './pages/_03_If2';
+import _04_If3 from './pages/_04_If3';
 import If4 from './pages/If4';
 import Loop1 from './pages/Loop1';
 import Loop2 from './pages/Loop2';
@@ -31,10 +31,10 @@ const App = () => {
 
             {/* 각 예제 페이지 Route 적용 */}
             <Routes>
-                <Route path="/expr"     element={<Expr />}/>
-                <Route path="/if1"      element={<If1 />}/>
-                <Route path="/if2"      element={<If2 />}/>
-                <Route path="/if3"      element={<If3 />}/>
+                <Route path="/expr"     element={<_01_Expr />}/>
+                <Route path="/if1"      element={<_02_If1 />}/>
+                <Route path="/if2"      element={<_03_If2 />}/>
+                <Route path="/if3"      element={<_04_If3 />}/>
                 <Route path="/if4"      element={<If4 />}/>
                 <Route path="/loop1"    element={<Loop1 />}/>
                 <Route path="/loop2"    element={<Loop2 />}/>

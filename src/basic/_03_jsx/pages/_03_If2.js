@@ -7,7 +7,7 @@ import React from 'react';
  *
  * 조건이 거짓인 경우 표시되는 내용 없음
  */
-const If2 = () => {
+const _03_If2 = () => {
     const isLogin = true;
 
     return (
@@ -18,4 +18,4 @@ const If2 = () => {
     );
 };
 
-export default If2;
+export default _03_If2;

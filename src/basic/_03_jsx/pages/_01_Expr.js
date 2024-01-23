@@ -3,7 +3,7 @@ import React from 'react';
 /**
  * 기본 표현식 연습
  */
-const Expr = () => {
+const _01_Expr = () => {
     /** 사용자 정의 변수 */
     const name = '리액트';
     const age = 19;
@@ -35,4 +35,4 @@ const Expr = () => {
     )
 };
 
-export default Expr;
+export default _01_Expr;

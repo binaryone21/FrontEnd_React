@@ -3,7 +3,7 @@ import React from 'react';
 /**
  * JSX 조건 분기 (1) - 함수를 통한 리턴값 분기
  */
-const If1 = () => {
+const _02_If1 = () => {
     /** 조건에 따라 다른 jsx 를 반환하는 함수 정의 */
     const btnLogin = (isLogin) => {
         if(isLogin === true) {
@@ -22,4 +22,4 @@ const If1 = () => {
     );
 };
 
-export default If1;
+export default _02_If1;

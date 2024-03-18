@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link, Routes, Route } from 'react-router-dom';
 
-import MyProps from './pages/MyProps';
-import MyPropTypes from "./pages/MyPropTypes";
-import MyChildren from "./pages/MyChildren";
-import GradeTable from "./pages/GradeTable";
-import Exam from './pages/Exam';
+import MyProps from './pages/_01_MyProps';
+import MyPropTypes from "./pages/_02_MyPropTypes";
+import MyChildren from "./pages/_03_MyChildren";
+import GradeTable from "./pages/_04_GradeTable";
+import Exam from './pages/_05_Exam';
 
 const App = () => {
     return (

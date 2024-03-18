@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Table from './Table';
 
-// Table 컴포넌트의 CSS 를 확장한 컴포넌트
+// _05_Table 컴포넌트의 CSS 를 확장한 컴포넌트
 const TableEx = styled(Table)`
   margin-bottom: 15px;
   .inputWrapper {

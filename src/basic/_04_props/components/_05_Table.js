@@ -2,9 +2,9 @@ import React from "react";
 
 import { useParams } from 'react-router-dom';
 import GradeData from '../GradeData';
-import GradeItem from './GradeItem';
+import _04_GradeItem from './_04_GradeItem';
 
-const Table = () => {
+const _05_Table = () => {
     const {level} = useParams();
 
     const selectedData = GradeData.filter((v, i) => level == v.학년);
@@ -31,7 +31,7 @@ const Table = () => {
                 <tbody>
                     {selectedData.map((v, i) => {
                         return (
-                            <GradeItem
+                            <_04_GradeItem
                                 key={i}
                                 name={v.이름}
                                 level={v.학년}
@@ -48,4 +48,4 @@ const Table = () => {
     )
 };
 
-export default Table;
+export default _05_Table;

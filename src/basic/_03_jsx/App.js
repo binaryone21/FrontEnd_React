@@ -9,8 +9,8 @@ import _03_If2 from './pages/_03_If2';
 import _04_If3 from './pages/_04_If3';
 import _05_If4 from './pages/_05_If4';
 import _06_Loop1 from './pages/_06_Loop1';
-import Loop2 from './pages/Loop2';
-import Loop3 from './pages/Loop3';
+import _07_Loop2 from './pages/_07_Loop2';
+import _08_Loop3 from './pages/_08_Loop3';
 
 const App = () => {
     return (
@@ -37,8 +37,8 @@ const App = () => {
                 <Route path="/if3"      element={<_04_If3 />}/>
                 <Route path="/if4"      element={<_05_If4 />}/>
                 <Route path="/loop1"    element={<_06_Loop1 />}/>
-                <Route path="/loop2"    element={<Loop2 />}/>
-                <Route path="/loop3"    element={<Loop3 />}/>
+                <Route path="/loop2"    element={<_07_Loop2 />}/>
+                <Route path="/loop3"    element={<_08_Loop3 />}/>
             </Routes>
         </div>
     )

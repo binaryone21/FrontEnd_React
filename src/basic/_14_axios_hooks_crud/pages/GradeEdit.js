@@ -8,7 +8,7 @@ import useAxios from "axios-hooks";
 // Path 파라미터를 처리하기 위한 기능과 페이지 강제 이동을 처리하기 위한 기능 참조
 import { useParams, useNavigate } from 'react-router-dom';
 
-/** Table 컴포넌트의 CSS를 확장한 컴포넌트 */
+/** _05_Table 컴포넌트의 CSS를 확장한 컴포넌트 */
 const TableEx = styled(Table)`
   margin-top: 50px;
   margin-bottom: 15px;

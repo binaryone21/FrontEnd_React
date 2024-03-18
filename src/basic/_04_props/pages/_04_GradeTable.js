@@ -1,9 +1,9 @@
 import React from 'react';
-import GradeItem from "../components/GradeItem";
+import GradeItem from "../components/_04_GradeItem";
 import Meta from "../Meta";
 import GradeData from "../GradeData";
 
-const GradeTable = () => {
+const _04_GradeTable = () => {
     return (
         <div>
             {/* Route 처리를 적용 받는 페이지에서 이 컴포넌트를 중복 사용시 App.js 에서의 설정을 덮어쓰게 된다. */}
@@ -44,4 +44,4 @@ const GradeTable = () => {
     );
 };
 
-export default GradeTable;
+export default _04_GradeTable;

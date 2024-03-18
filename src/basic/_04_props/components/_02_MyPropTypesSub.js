@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 // const MyPropsTypeSub = (props) => {
 // 비구조 문법을 통해 변수 속성값을 변수로 선언
 // const {name, age, hobby} = props;
-const MyPropTypesSub = ({name, age, hobby}) => {
+const _02_MyPropTypesSub = ({name, age, hobby}) => {
     return (
         <div>
             <h3>MyPropTypesSub</h3>
@@ -19,7 +19,7 @@ const MyPropTypesSub = ({name, age, hobby}) => {
 
 /** 이 컴포넌트로 전달되는 props 값들에 대한 형식(DataType)과 필수 여부 지정 */
 // 규칙에 맞지 않는 props 값에 대해 브라우저 개발자 콘솔에 Warning 메시지가 출력된다.
-MyPropTypesSub.propTypes = {
+_02_MyPropTypesSub.propTypes = {
     // name 속성의 데이터 타입을 문자열 지정
     name: PropTypes.string,
     age: PropTypes.number,
@@ -28,4 +28,4 @@ MyPropTypesSub.propTypes = {
     hobby: PropTypes.string.isRequired
 };
 
-export default MyPropTypesSub;
+export default _02_MyPropTypesSub;

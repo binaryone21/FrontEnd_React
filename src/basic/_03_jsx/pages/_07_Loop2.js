@@ -3,7 +3,7 @@ import React from 'react';
 /**
  * jsx 반복 처리 (2) - map() 함수를 사용한 배열 원소 탐색
  */
-const Loop2 = () => {
+const _07_Loop2 = () => {
     // 화면에 표시할 데이터
     const myArray = ['hello', 'world'];
 
@@ -25,4 +25,4 @@ const Loop2 = () => {
     );
 };
 
-export default Loop2;
+export default _07_Loop2;

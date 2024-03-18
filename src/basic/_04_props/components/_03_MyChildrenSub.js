@@ -2,7 +2,7 @@ import React from 'react';
 
 import PropTypes from 'prop-types';
 
-const MyChildrenSub = ({width, height, children}) => {
+const _03_MyChildrenSub = ({width, height, children}) => {
     /** CSS 속성값을 변수화 할 경우 JSON 객체로 구성한다. */
     const myStyle = {
         // 부모로부터 전달받은 props 에 포함된 값으로 width, height 결정
@@ -24,17 +24,17 @@ const MyChildrenSub = ({width, height, children}) => {
 };
 
 // 속성들에 대한 타입 정의
-MyChildrenSub.prototype = {
+_03_MyChildrenSub.prototype = {
     width: PropTypes.number.isRequired,
     height: PropTypes.number.isRequired,
     children: PropTypes.string
 };
 
 // 속성들에 대한 기본값을 JSON 으로 정의 (객체이름 고정)
-MyChildrenSub.defaultProps = {
+_03_MyChildrenSub.defaultProps = {
     width: 300,
     height: 100,
     children: '내용이 없습니다.'
 };
 
-export default MyChildrenSub;
+export default _03_MyChildrenSub;

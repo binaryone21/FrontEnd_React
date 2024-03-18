@@ -7,8 +7,8 @@ import React from 'react';
  * -> 흔히 컴포넌트에게 HTML 속성 같은 형태로 전달된다.
  */
 
-const MyPropsSub = (props) => {
-    console.group("MyPropsSub");
+const _01_MyPropsSub = (props) => {
+    console.group("_01_MyPropsSub");
     console.log(props);
     console.log(typeof props.name);
     console.log(typeof props.age);
@@ -25,9 +25,9 @@ const MyPropsSub = (props) => {
 // 속성값이 전달되지 않을 경우에 대비하여 기본값을 JSON 으로 정의해 둘 수 있다.
 // (defaultProps 객체이름 고정)
 // 가급적 무조건 권장~!!
-MyPropsSub.defaultProps = {
+_01_MyPropsSub.defaultProps = {
     name: '이름없음',
     age: 20
 };
 
-export default MyPropsSub;
+export default _01_MyPropsSub;

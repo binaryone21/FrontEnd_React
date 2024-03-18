@@ -1,9 +1,9 @@
 import React from "react";
 
 import {Link, Routes, Route} from 'react-router-dom';
-import Table from '../components/Table';
+import Table from '../components/_05_Table';
 
-const Exam = () => {
+const _05_Exam = () => {
     return (
         <div>
             <h2>성적표</h2>
@@ -22,4 +22,4 @@ const Exam = () => {
     );
 }
 
-export default Exam;
+export default _05_Exam;

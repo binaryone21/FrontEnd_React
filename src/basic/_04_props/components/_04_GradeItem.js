@@ -2,7 +2,7 @@ import React from 'react';
 
 import PropTypes from "prop-types";
 
-const GradeItem = ({name, level, sex, kor, eng, math, sinc}) => {
+const _04_GradeItem = ({name, level, sex, kor, eng, math, sinc}) => {
     const sum = parseInt(kor + eng + math + sinc);
     const avg = parseInt(sum / 4);
 
@@ -21,17 +21,17 @@ const GradeItem = ({name, level, sex, kor, eng, math, sinc}) => {
     );
 };
 
-GradeItem.propTypes = {
+_04_GradeItem.propTypes = {
     name: PropTypes.string.isRequired,
     level: PropTypes.number.isRequired,
     sex: PropTypes.string.isRequired
 };
 
-GradeItem.defaultProps = {
+_04_GradeItem.defaultProps = {
     kor: 0,
     eng: 0,
     math: 0,
     sinc: 0
 };
 
-export default GradeItem;
+export default _04_GradeItem;
